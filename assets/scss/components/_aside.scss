@@ -67,6 +67,9 @@
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
     }
   }
+  a {
+    color: $gray-dark;
+  }
 }
 .navigation {
   &.left {
@@ -103,7 +106,7 @@
           opacity: .8;
           color: $gray-lightest;
 
-          @include btn-cover;
+          @include btn-cover-mixin;
 
           &:hover {
             color: $hover-color;
@@ -125,7 +128,7 @@
         a {
           padding: 6px 8px 6px 9px;
 
-          @include btn-cover;
+          @include btn-cover-mixin;
           .label {
             display: none;
           }
