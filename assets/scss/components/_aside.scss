@@ -69,6 +69,10 @@
   }
   a {
     color: $gray-dark;
+    
+    &:hover {
+      color: $hover-color;
+    }
   }
 }
 .navigation {
