@@ -67,6 +67,9 @@
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
     }
   }
+  > div{
+    padding: 0px 8px;
+  }
   a {
     color: $gray-dark;
     
