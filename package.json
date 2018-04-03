@@ -53,6 +53,7 @@
     "proxy": "http://127.0.0.1:2387"
   },
   "dependencies": {
+    "bower": "^1.8.4",
     "coffeescript": "^2.2.4"
   }
 }

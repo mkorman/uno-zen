@@ -38,8 +38,12 @@ src =
       main   : ['assets/js/src/__init.coffee'
                 'assets/js/src/main.coffee'
                 'assets/js/src/cover.coffee']
-      vendor : []
-    post     : ['assets/js/src/prism.js']
+      vendor : ['assets/vendor/fastclick/lib/fastclick.js'
+                'assets/vendor/instantclick/instantclick.js'
+                'assets/vendor/pace/pace.min.js'
+                'assets/vendor/reading-time/build/readingTime.min.js']
+    post     : ['assets/vendor/fitvids/jquery.fitvids.js'
+                'assets/js/src/prism.js']
 
   css      :
     main   : 'assets/css/' + dist.name + '.css'
@@ -60,7 +64,7 @@ gulp.task 'js-common', ->
   gulp.src src.js.common.main
   .pipe changed dist.js
   .pipe coffee().on 'error', gutil.log
-  #.pipe addsrc src.js.common.vendor
+  .pipe addsrc src.js.common.vendor
   .pipe concat dist.name + '.common.js'
   .pipe gulpif(isProduction, uglify())
   .pipe gulpif(isProduction, header banner, pkg: pkg)
