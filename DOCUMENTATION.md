@@ -70,6 +70,15 @@ Putting the files in context:
 
 For do it automatically and easily we use [Gulp](http://gulpjs.com/), check `gulpfile.coffee` for know how to we do it.
 
+## Prerequisites
+
+You need to install the following
+- node.js
+- gulp
+- bower (`node install -g bower`)
+
+
+
 ## First Steps
 
 For local development you need to have a local Ghost server running. It should look like this:
@@ -94,6 +103,9 @@ $ git clone https://github.com/Kikobeats/uno-zen && cd uno-zen && npm install &&
 Just run `gulp` command in the theme terminal. Now you have a development scenario, and looks like this:
 
 ![](http://i.imgur.com/Gf4gPR2.png)
+
+If it fails to load, you may have to `npm install` some of the prerequisite packages listed in the gulpfile.coffee
+You may also have to do a `bower install`
 
 With the default `gulp` command you are automatically launching the task that will compile all assets and reload the server when those assets change. To do that, we use [BrowserSync](http://www.browsersync.io), which is set up as middleware between the theme and Ghost. You can connect different devices and see how the website is responsive as well.
 
