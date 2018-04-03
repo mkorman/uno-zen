@@ -49,7 +49,11 @@ classes that you can use:
 
   <!-- Twitter -->
   <li class="social item hvr-grow-rotate">
-    <a rel="me" target="blank" href="https://twitter.com/mkormanc" title="@mkormanc on Twitter">
+<<<<<<< HEAD
+    <a rel="me" target="blank" href="http://twitter.com/mkormanc" title="@mkormanc on Twitter">
+=======
+    <a rel="me" target="blank" href="https://twitter.com/kikobeats" title="@Kikobeats on Twitter">
+>>>>>>> refs/remotes/Kikobeats/master
       <i class='icon icon-social-twitter'></i>
       <span class="label">Twitter</span>
     </a>
@@ -57,7 +61,11 @@ classes that you can use:
 
   <!-- Linkedin -->
   <li class="social item hvr-grow-rotate">
-    <a rel="me" target="blank" href="https://linkedin.com/in/mkormanc" title="Mariano Korman on LinkedIn">
+<<<<<<< HEAD
+    <a rel="me" target="blank" href="http://linkedin.com/in/mkormanc" title="Mariano Korman on LinkedIn">
+=======
+    <a rel="me" target="blank" href="https://linkedin.com/in/kikobeats" title="Kikobeats on LinkedIn">
+>>>>>>> refs/remotes/Kikobeats/master
       <i class='icon icon-social-linkedin'></i>
       <span class="label">Linkedin</span>
     </a>

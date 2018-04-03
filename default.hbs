@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{{meta_title}}</title>
     {{> meta}}
@@ -12,15 +12,20 @@
       <a><i class="icon icon-list"></i></a>
     </header>
     {{> aside}}
-    <main>
-      <section id="search-results"></section>
+
+    <main data-no-instant>
       <section class="content">
         {{{body}}}
         {{> footer}}
       </section>
     </main>
+
     {{ghost_foot}}
-    <script src="{{asset "js/uno-zen.js"}}" type="text/javascript" charset="utf-8"></script>
+
+    <script src="{{asset "js/uno-zen.common.js"}}" type="text/javascript" charset="utf-8"></script>
+    {{#is "post, page"}}
+      <script src="{{asset "js/uno-zen.post.js"}}" type="text/javascript" charset="utf-8"></script>
+    {{/is}}
     {{> google-analytics}}
   </body>
 </html>

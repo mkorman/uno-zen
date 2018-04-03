@@ -2,7 +2,7 @@
   "name": "uno-zen",
   "description": "Minimalist and Elegant theme for Ghost",
   "homepage": "https://github.com/kikobeats/uno-zen",
-  "version": "2.8.1",
+  "version": "2.9.8",
   "authors": [
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
   ],
@@ -24,6 +24,7 @@
   "dependencies": {
     "fastclick": "latest",
     "fitvids": "latest",
+    "instantclick": "latest",
     "pace": "latest",
     "reading-time": "latest"
   },

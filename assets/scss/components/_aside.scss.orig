@@ -113,7 +113,11 @@
           opacity: .8;
           color: $gray-lightest;
 
+<<<<<<< HEAD
+          @include btn-cover-mixin;
+=======
           @extend %btn-cover;
+>>>>>>> refs/remotes/Kikobeats/master
 
           &:hover {
             color: $hover-color;
@@ -135,7 +139,11 @@
         a {
           padding: 6px 8px 6px 9px;
 
+<<<<<<< HEAD
+          @include btn-cover-mixin;
+=======
           @extend %btn-cover;
+>>>>>>> refs/remotes/Kikobeats/master
           .label {
             display: none;
           }

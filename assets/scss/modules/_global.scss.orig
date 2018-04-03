@@ -32,6 +32,15 @@ mark {
   background: lighten($secondary-color, 26%);
 }
 
+<<<<<<< HEAD
+:scrollbar {
+  display: none;
+=======
+hr {
+  border: 0;
+>>>>>>> refs/remotes/Kikobeats/master
+}
+
 // ------------------------------
 // TYPOGRAPHY
 // ------------------------------

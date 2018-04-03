@@ -31,7 +31,11 @@
   text-shadow: 0 1px 1px rgba(000, 000, 000, .4);
 }
 
+<<<<<<< HEAD
+@mixin btn-cover-mixin {
+=======
 %btn-cover {
+>>>>>>> refs/remotes/Kikobeats/master
   position: relative;
 
   display: block;
@@ -55,6 +59,15 @@
 %btn-cover-with-border {
   @extend %btn-cover;
   border: 1px solid $gray-lightest;
+<<<<<<< HEAD
+
+  @extend .btn-cover;
+}
+
+.btn-cover {
+  @include btn-cover-mixin;
+=======
+>>>>>>> refs/remotes/Kikobeats/master
 }
 
 @mixin placeholder {

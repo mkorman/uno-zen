@@ -2,6 +2,8 @@
 
 $ ->
 
+  InstantClick.init()
+
   if Uno.is 'device', 'desktop'
     $('a').not('[href*="mailto:"]').click ->
       if this.href.indexOf(location.hostname) is -1
@@ -24,3 +26,6 @@ $ ->
       s = document.createElement 'script'
       s.setAttribute 'src','https://nthitz.github.io/turndownforwhatjs/tdfw.js'
       document.body.appendChild s
+
+  $('#search-input').keyup (e) ->
+    $('#search-form').attr('action', Uno.search.url + '+' + encodeURIComponent(e.target.value))
