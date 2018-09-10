@@ -40,7 +40,7 @@ Things that already existed:
 - Loading progress state for each page.
 - Estimation about the time of reading.
 
-You can see a [demo](http://kikobeats.com) in my own blog. Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
+You can see a [demo](http://kikobeats.com) in the owner's blog. Also you can check hi [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
 ## Installation
 
