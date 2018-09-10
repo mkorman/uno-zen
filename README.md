@@ -4,13 +4,8 @@
 [![Build Status](http://img.shields.io/travis/Kikobeats/uno-zen/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/uno-zen)
 ![Ghost version](https://img.shields.io/badge/Ghost-1.x-brightgreen.svg?style=flat-square)
 ![Node version](https://img.shields.io/node/v/uno-zen.svg?style=flat-square)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Minimalist and Elegant theme for Ghost.
-
-**NOTE**: Commercial version is available as [Uno Urban](https://sellfy.com/p/G5kK).
-
-[<img src="http://i.imgur.com/LCSB4Ca.jpg">](http://kikobeats.com)
 
 - [Uno Zen for Ghost](#uno-zen-for-ghost)
   * [Introduction](#introduction)
@@ -100,16 +95,6 @@ $ sh scripts/update.sh
 ```
 
 That's all!
-
-### Receive a mail notification when a new version is available
-
-Stay tuned for new releases with this [IFTTT recipe](https://ifttt.com/recipes):
-
-<div align="center">
-<a target="blank" href="https://ifttt.com/recipes/330382-uno-zen-new-release-send-me-an-email"><img src="http://i.imgur.com/sbl8YiZ.png"></a>
-</br>
-</br>
-</div>
 
 ## Development and Customization
 
