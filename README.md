@@ -85,7 +85,6 @@ It should look like this:
 
 One objective of this project is to adopt an effective policy to have the latest version of the theme all the time. We have divided this process into two steps:
 
-
 ### Update your current version
 
 Make sure you're in the uno-zen directory. Then run:
@@ -99,19 +98,6 @@ That's all!
 ## Development and Customization
 
 See in [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md).
-
-## Showcase
-
-<div align="center">
-<a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/crE8jt2.png"></a>
-<a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
-<a target="blank" href="http://pupboss.com"><img src="http://i.imgur.com/0AeVKgB.png"></a>
-<a target="blank" href="http://robinz.in"><img src="http://i.imgur.com/qDAbrch.jpg" /></a>
-</br>
-</br>
-.. and many, many more. <a href="https://github.com/Kikobeats/uno-zen/blob/master/SHOWCASE.md">See all</a>!.
-</div>
-
 
 ## Related
 
