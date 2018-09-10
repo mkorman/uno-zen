@@ -353,6 +353,12 @@ main {
   vertical-align: -.1em !important;
   width: 1em !important; }
 
+.kg-width-wide img {
+  max-width: 85vw; }
+
+.kg-width-full img {
+  max-width: 100vw; }
+
 /*
 * Foundation Icons v 3.0
 * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3

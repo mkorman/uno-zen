@@ -68,7 +68,7 @@ Putting the files in context:
 - The SCSS (we use [SASS](http://sass-lang.com/)) inside `assets/scss` is compiled into `assets/css/uno.css`
 - We have some static files like `post.hbs`, `tag.hbs`, `default.hbs`, `index.hbs`,... the partials views inside `assets/partials` is used in this views.
 
-For do it automatically and easily we use [Gulp](http://gulpjs.com/), check `gulpfile.coffee` for know how to we do it.
+To do it automatically and easily we use [Gulp](http://gulpjs.com/), check `gulpfile.coffee` to know how to we do it.
 
 ## Prerequisites
 

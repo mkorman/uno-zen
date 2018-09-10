@@ -234,3 +234,11 @@ main {
   vertical-align: -.1em !important;
   width: 1em !important;
 }
+
+.kg-width-wide img {
+  max-width: 85vw;
+}
+
+.kg-width-full img {
+  max-width: 100vw;
+} 
