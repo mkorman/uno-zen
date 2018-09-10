@@ -1,11 +1,10 @@
 # Uno Zen for Ghost
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/uno-zen.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/Kikobeats/uno-zen/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/uno-zen)
-![Ghost version](https://img.shields.io/badge/Ghost-1.x-brightgreen.svg?style=flat-square)
+![Ghost version](https://img.shields.io/badge/Ghost-2.0-brightgreen.svg?style=flat-square)
 ![Node version](https://img.shields.io/node/v/uno-zen.svg?style=flat-square)
 
-> Minimalist and Elegant theme for Ghost.
+> My fork of kikobeat's uno-zen theme for Ghost.
 
 - [Uno Zen for Ghost](#uno-zen-for-ghost)
   * [Introduction](#introduction)
